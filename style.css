@@ -1,0 +1,110 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(209, 247, 245);
+    font-family: 'Karla', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    width: 600px;
+    height: 450px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    border-radius: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-top: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60%;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.top{
+    margin: 20px;
+    height: 40%;
+    font-family: 'Karla';
+    font-weight: 400;
+}
+
+.bottom-left{
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-bottom-left-radius: 10px;
+}
+
+.bottom-right{
+    background-color: hsl(179, 49%, 61%);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-bottom-right-radius: 10px;
+}
+
+button{
+    background-color: hsla(71, 85%, 45%, 0.993);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottom-left-text, .bottom-right-text{
+    color: aliceblue;
+    font-family: 'Karla';
+    font-weight: 200;
+    margin-top: 12px;
+}
+
+#dollar, #per{
+    display: inline;
+}
+
+#per{
+    margin-left: 8px;
+}
+
+#per, .top>p{
+    color: rgb(197, 196, 196);
+}
+
+h5{
+    color: hsla(71, 82%, 50%, 0.993);
+}
+
+h3{
+    color: hsl(179, 62%, 43%);
+}
+
+button:hover{
+    cursor: pointer;
+}
